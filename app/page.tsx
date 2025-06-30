@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="size-full max-w-5xl relative h-screen flex flex-col items-center gap-y-4">
+    <div className="w-full max-w-5xl relative h-screen flex flex-col items-center gap-y-4 mt-20 overflow-hidden">
       <Image 
         src={HeroImage}
         alt="Hero Image"
